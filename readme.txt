@@ -36,9 +36,9 @@ pip install requests pandas openpyxl
 
 
 任务名称	ip地址
-办公OA	172.18.6.50-51
-人事管理系统	172.18.6.52
-web门户系统	http://172.18.6.80
+办公OA	192.168.1.1-51
+人事管理系统	192.168.2.52
+web门户系统	http://192.168.0.2
 如果 任务名称 中包含 web 且 ip地址 是 URL（如 http://...），将识别为 Web 扫描，使用 webapp 模板。
 
 其他情况视为主机扫描，使用 basic 模板。
